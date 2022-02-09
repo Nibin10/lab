@@ -19,6 +19,7 @@ void link()
     count=0;
     if(file[st]==0)
     {
+        file[st]=1;
         printf("Enter the index :\n");
         for(i=0;i<n;i++)
         {
